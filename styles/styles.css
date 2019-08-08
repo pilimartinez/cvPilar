@@ -1,0 +1,139 @@
+body {
+  background-image: url(aurorabg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  display: flex;
+  margin: 5% 10%;
+}
+
+.side-nav {
+  margin: 0 10px;
+}
+.side-nav .nav-btn {
+  margin: 0;
+  padding: 0;
+}
+.side-nav .nav-btn .btn {
+  background-color: #00aeac;
+  list-style: none;
+  padding: 10px 60px 10px 10px;
+  margin: 5px 0;
+}
+.side-nav .nav-btn .btn:hover {
+  background-color: #011531;
+}
+.side-nav .nav-btn .btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.main-info {
+  padding: 20px;
+  background-color: #ececec;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 5px;
+}
+.main-info img {
+  border: 4px solid gray;
+  width: 100px;
+  height: 100px;
+  border-radius: 150px;
+}
+.main-info h1 {
+  margin: 10px;
+}
+.main-info .job {
+  margin: 0;
+  color: gray;
+  font-size: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+.main-info .prof-info {
+  text-align: center;
+}
+.main-info .contact {
+  background-color: #00aeac;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.main-info .social-media {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+.main-info .social-media li {
+  width: 25px;
+  margin: 0 5px;
+  background-color: black;
+}
+.main-info .social-media li a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.resume {
+  padding: 20px;
+  background-color: #ececec;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 425px;
+}
+.resume h2 {
+  padding-bottom: 5px;
+  margin: 0 0 15px 0;
+  border-bottom: 1px solid black;
+}
+.resume .download a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  padding: 8px;
+}
+.resume .download a i {
+  margin-right: 5px;
+}
+.resume .topic {
+  border-left: 4px solid #00aeac;
+  color: #00aeac;
+}
+.resume .topic i {
+  margin: 5px;
+}
+.resume article {
+  border: 2px solid gray;
+  padding: 15px 10px;
+  margin-bottom: 5px;
+}
+.resume article p {
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  padding: 0;
+  font-size: 20px;
+}
+.resume article span {
+  font-size: 15px;
+  color: gray;
+}
+.resume article h5 {
+  border-top: 1px solid gray;
+  margin: 5px 0;
+  padding-top: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */
